@@ -1,0 +1,17 @@
+{
+    "name": "faiqm/mobcom-mongo",
+    "autoload": {
+        "psr-4": {
+            "Faiqm\\MobcomMongo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faiq Muhammad",
+            "email": "67610949+FaiqMID@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.17"
+    }
+}
