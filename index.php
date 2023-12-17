@@ -14,7 +14,7 @@
     use MongoDB\Client;
     use MongoDB\Driver\ServerApi;
 
-    $uri = "<string>";
+    $uri = "mongodb+srv://<uname>:<pass>@atlascluster.jb5lemx.mongodb.net/?retryWrites=true&w=majority;";
 
     // Specify Stable API version 1
     $apiVersion = new ServerApi(ServerApi::V1);
